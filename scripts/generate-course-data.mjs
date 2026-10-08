@@ -8,7 +8,7 @@ const generatedDir = path.join(rootDir, "site", ".vitepress", "generated")
 const generatedDataFile = path.join(generatedDir, "course-content.mjs")
 const materialsDir = path.join(rootDir, "course-materials")
 const publicMaterialsDir = path.join(rootDir, "site", "public", "course-materials")
-const materialsWeeks = Array.from({ length: 14 }, (_, index) => {
+const materialsWeeks = courseSource.materialSections ?? Array.from({ length: 14 }, (_, index) => {
   const weekNumber = index + 2
   const slug = `week-${String(weekNumber).padStart(2, "0")}`
 

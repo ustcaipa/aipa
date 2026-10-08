@@ -1,238 +1,253 @@
-﻿export const courseSource = {
-  course: {
-    titleZh: "人工智能原理与应用",
-    titleEn: "Principles and Applications of Artificial Intelligence",
-    theoryLabHours: "42/20",
-    prerequisites: "高等数学，数字图像处理",
-    grading: "百分制",
-    prerequisiteRule: "全部通过",
-    assessment: "大作业",
-    department: "人工智能与数据科学学院",
-    audience: "研究生",
-    firstOffered: "26年春",
-    availableTerms: "春、秋",
-    specifiedTextbook: "无",
-    referenceTextbook: "无",
+export const courseSource = {
+  "course": {
+    "titleZh": "人工智能原理与应用",
+    "titleEn": "Principles and Applications of Artificial Intelligence",
+    "theoryLabHours": "42/20",
+    "prerequisites": "高等数学，数字图像处理",
+    "grading": "百分制",
+    "prerequisiteRule": "全部通过",
+    "assessment": "大作业",
+    "department": "人工智能与数据科学学院",
+    "audience": "研究生",
+    "firstOffered": "26年春",
+    "availableTerms": "春、秋",
+    "specifiedTextbook": "无",
+    "referenceTextbook": "无"
   },
-  chineseModules: [
+  "chineseModules": [
     {
-      id: "1",
-      title: "人工智能的演进：从规则推理到数据驱动",
-      hours: "3学时",
-      coreConcept: "阐释AI并非横空出世，而是“理性主义”与“经验主义”在计算时代的延续与融合。",
-      sections: [
+      "id": "1",
+      "title": "人工智能的演进：从规则推理到数据驱动",
+      "hours": "3学时",
+      "coreConcept": "阐释AI并非横空出世，而是“理性主义”与“经验主义”在计算时代的延续与融合。",
+      "sections": [
         {
-          title: "1.1 思想起源与历史浪潮",
-          items: [
+          "title": "1.1 思想起源与历史浪潮",
+          "items": [
             "1.1.1 从图灵测试到达特茅斯会议：人工智能的诞生与早期雄心",
             "1.1.2 符号主义的辉煌与困境：专家系统与第一次寒冬",
             "1.1.3 统计学习的兴起：从数据中学习的范式转换",
-            "1.1.4 深度学习的突破与第三次浪潮：表征学习的力量",
-          ],
+            "1.1.4 深度学习的突破与第三次浪潮：表征学习的力量"
+          ]
         },
         {
-          title: "1.2 人工智能的三大范式（贯穿历史的视角）",
-          items: [
+          "title": "1.2 人工智能的三大范式（贯穿历史的视角）",
+          "items": [
             "1.2.1 符号主义（逻辑与知识）：如何让机器“思考”？",
             "1.2.2 联结主义（学习与关联）：如何让机器“感知”？",
-            "1.2.3 行为主义（交互与优化）：如何让机器“行动”？",
-          ],
+            "1.2.3 行为主义（交互与优化）：如何让机器“行动”？"
+          ]
         },
         {
-          title: "小结",
-          items: ["现代AI如何融合三大范式？——以大模型为例（知识内化于参数，通过交互学习）。"],
-        },
-      ],
+          "title": "小结",
+          "items": [
+            "现代AI如何融合三大范式？——以大模型为例（知识内化于参数，通过交互学习）。"
+          ]
+        }
+      ]
     },
     {
-      id: "2",
-      title: "数据科学与机器学习：智能的基石",
-      hours: "6学时",
-      coreConcept: "将数据科学定位为AI的“前置学科”，机器学习是“实现方法”，强化“从问题到数据，从数据到模型”的思维链条。",
-      sections: [
+      "id": "2",
+      "title": "数据科学与机器学习：智能的基石",
+      "hours": "6学时",
+      "coreConcept": "将数据科学定位为AI的“前置学科”，机器学习是“实现方法”，强化“从问题到数据，从数据到模型”的思维链条。",
+      "sections": [
         {
-          title: "2.1 数据科学导论：从观测到洞察",
-          items: [
+          "title": "2.1 数据科学导论：从观测到洞察",
+          "items": [
             "2.1.1 数据科学生命周期：问题定义、数据收集、处理、建模、部署",
-            "2.1.2 数据预处理与特征工程：为模型准备“食材”",
-          ],
+            "2.1.2 数据预处理与特征工程：为模型准备“食材”"
+          ]
         },
         {
-          title: "2.2 机器学习核心思想：三种学习范式",
-          items: [
+          "title": "2.2 机器学习核心思想：三种学习范式",
+          "items": [
             "2.2.1 监督学习（归纳与预测）：回归与分类的思想（以线性模型、决策树为例，避免陷入复杂公式）",
             "2.2.2 无监督学习（发现与结构）：聚类与降维的思想（探索数据内在结构）",
-            "2.2.3 强化学习（试错与优化）：智能体与环境交互的核心框架（与生物学习类比）",
-          ],
+            "2.2.3 强化学习（试错与优化）：智能体与环境交互的核心框架（与生物学习类比）"
+          ]
         },
         {
-          title: "2.3 从浅层模型到深度网络：为何需要“深度”？",
-          items: ["概念性桥梁：解释模型复杂度、表示能力与神经网络的基本直觉（神经元、分层抽象）。"],
-        },
-      ],
+          "title": "2.3 从浅层模型到深度网络：为何需要“深度”？",
+          "items": [
+            "概念性桥梁：解释模型复杂度、表示能力与神经网络的基本直觉（神经元、分层抽象）。"
+          ]
+        }
+      ]
     },
     {
-      id: "3",
-      title: "深度神经网络与生成式AI革命",
-      hours: "21学时",
-      coreConcept: "这是课程的技术核心，但讲授重点应是关键突破的直觉解释和思想影响，而非数学细节。以“表示学习”和“生成能力”为主线串联。",
-      sections: [
+      "id": "3",
+      "title": "深度神经网络与生成式AI革命",
+      "hours": "21学时",
+      "coreConcept": "这是课程的技术核心，但讲授重点应是关键突破的直觉解释和思想影响，而非数学细节。以“表示学习”和“生成能力”为主线串联。",
+      "sections": [
         {
-          title: "3.1 深度学习基础：赋予机器感知能力（3学时）",
-          items: [
+          "title": "3.1 深度学习基础：赋予机器感知能力（3学时）",
+          "items": [
             "3.1.1 卷积神经网络（CNN）：如何让机器“看见”——局部感知、参数共享、层次化特征提取",
-            "3.1.2 循环神经网络（RNN）与注意力机制：如何让机器处理“序列”——短期记忆与聚焦关键信息",
-          ],
+            "3.1.2 循环神经网络（RNN）与注意力机制：如何让机器处理“序列”——短期记忆与聚焦关键信息"
+          ]
         },
         {
-          title: "3.2 自然语言处理与大模型时代（6学时）",
-          items: [
+          "title": "3.2 自然语言处理与大模型时代（6学时）",
+          "items": [
             "3.2.1 从词袋到词向量：语言的分布式表示（将语义映射到向量空间）",
             "3.2.2 Transformer架构革命：自注意力机制如何统一理解与生成",
             "3.2.3 预训练范式：从BERT到GPT——“预训练+微调/提示”如何改变AI研发范式",
-            "3.2.4 大模型应用技术：提示工程、检索增强生成（RAG）、智能体（Agents）——如何与大模型有效交互和扩展能力",
-          ],
+            "3.2.4 大模型应用技术：提示工程、检索增强生成（RAG）、智能体（Agents）——如何与大模型有效交互和扩展能力"
+          ]
         },
         {
-          title: "3.3 计算机视觉：从识别到创造（6学时）",
-          items: [
+          "title": "3.3 计算机视觉：从识别到创造（6学时）",
+          "items": [
             "3.3.1 视觉识别基础：目标检测、分割的核心思想",
             "3.3.2 视觉生成模型：扩散模型（Diffusion Model）的工作原理直觉——从噪声中“塑造”图像",
-            "3.3.3 三维视觉与表征学习：从2D到3D理解世界",
-          ],
+            "3.3.3 三维视觉与表征学习：从2D到3D理解世界"
+          ]
         },
         {
-          title: "3.4 多模态人工智能：跨越感知的鸿沟（6学时）",
-          items: [
+          "title": "3.4 多模态人工智能：跨越感知的鸿沟（6学时）",
+          "items": [
             "3.4.1 多模态对齐与融合：如何让AI同时理解文本、图像、声音？",
             "3.4.2 视觉-语言大模型：CLIP、DALL-E等工作原理与意义",
-            "3.4.3 具身智能与AI智能体：多模态感知如何驱动决策与行动——通往更通用AI的路径",
-          ],
-        },
-      ],
+            "3.4.3 具身智能与AI智能体：多模态感知如何驱动决策与行动——通往更通用AI的路径"
+          ]
+        }
+      ]
     },
     {
-      id: "4",
-      title: "AI赋能科学实践案例",
-      hours: "12学时",
-      sections: [
+      "id": "4",
+      "title": "AI赋能科学实践案例",
+      "hours": "12学时",
+      "sections": [
         {
-          title: "4.1 AI赋能生命科学",
-          items: [
+          "title": "4.1 AI赋能生命科学",
+          "items": [
             "4.1.1 AI与生命科学的交汇",
             "4.1.2 应用：AI+生物医学研究、临床医学、公共卫生",
-            "4.1.3 讨论与展望",
-          ],
+            "4.1.3 讨论与展望"
+          ]
         },
         {
-          title: "4.2 AI赋能地理科学",
-          items: [
+          "title": "4.2 AI赋能地理科学",
+          "items": [
             "4.2.1 AI与地理科学的交汇",
             "4.2.2 应用：AI+环境监测、城市管理、地球系统科学",
-            "4.2.3 讨论与展望",
-          ],
+            "4.2.3 讨论与展望"
+          ]
         },
         {
-          title: "4.3 AI赋能化学",
-          items: [
+          "title": "4.3 AI赋能化学",
+          "items": [
             "4.3.1 AI与化学的交汇",
             "4.3.2 应用：AI+分子与材料、反应与合成、过程与自动化",
-            "4.3.3 讨论与展望",
-          ],
+            "4.3.3 讨论与展望"
+          ]
         },
         {
-          title: "4.4 AI赋能数学科学",
-          items: [
+          "title": "4.4 AI赋能数学科学",
+          "items": [
             "4.4.1 AI与数学的交汇",
             "4.4.2 应用：AI+自动定理证明、偏微分方程求解、统计推断与数据科学",
-            "4.4.3 讨论与展望",
-          ],
+            "4.4.3 讨论与展望"
+          ]
         },
         {
-          title: "4.5 AI赋能地空科学",
-          items: [
+          "title": "4.5 AI赋能地空科学",
+          "items": [
             "4.5.1 AI与地空科学的交汇",
             "4.5.2 应用：AI+大气建模与气象预测、遥感、空间探测、行星探测",
-            "4.5.3 讨论与展望",
-          ],
+            "4.5.3 讨论与展望"
+          ]
         },
         {
-          title: "4.6 AI赋能物理科学",
-          items: [
+          "title": "4.6 AI赋能物理科学",
+          "items": [
             "4.6.1 AI与物理的交汇",
             "4.6.2 应用：AI+数据驱动物理建模（PDE/动力系统）、凝聚态与材料、量子计算",
-            "4.6.3 讨论与展望",
-          ],
-        },
-      ],
-    },
+            "4.6.3 讨论与展望"
+          ]
+        }
+      ]
+    }
   ],
-  teachingTeam: {
-    instructors: [
+  "teachingTeam": {
+    "instructors": [
       {
-        name: "周文罡",
-        title: "教授",
-        affiliation: "信息科学技术学院",
-        email: "zhwg@ustc.edu.cn",
-        researchAreas: "多媒体信息检索、计算机视觉、多模态理解",
-        summary: "长期从事图像与视频理解、检索及视觉智能方向研究。",
-        profileUrl: "http://staff.ustc.edu.cn/~zhwg/index.html",
+        "name": "吴剑灿",
+        "title": "预聘副教授",
+        "affiliation": "人工智能与数据科学学院",
+        "email": "wjc1994@ustc.edu.cn",
+        "researchAreas": "通用人工智能与大模型、个性化大模型与社交科学智能、可信人工智能",
+        "summary": "长期从事信息检索、推荐、数据挖掘与大模型相关研究。",
+        "profileUrl": "https://saids.ustc.edu.cn/2025/1013/c36359a704390/page.htm"
       },
       {
-        name: "夏彦",
-        title: "预聘副教授",
-        affiliation: "人工智能与数据科学学院",
-        email: "yan.xia@ustc.edu.cn",
-        researchAreas: "三维视觉、空间智能、机器人、无人驾驶",
-        summary: "研究聚焦三维视觉与空间智能，兼顾机器人与自动驾驶场景。",
-        profileUrl: "https://saids.ustc.edu.cn/2024/1105/c36363a686123/page.htm",
+        "name": "夏彦",
+        "title": "预聘副教授",
+        "affiliation": "人工智能与数据科学学院",
+        "email": "yan.xia@ustc.edu.cn",
+        "researchAreas": "三维视觉、空间智能、机器人、无人驾驶",
+        "summary": "研究聚焦三维视觉与空间智能，兼顾机器人与自动驾驶场景。",
+        "profileUrl": "https://saids.ustc.edu.cn/2024/1105/c36363a686123/page.htm"
       },
       {
-        name: "王江涛",
-        title: "特任教授",
-        affiliation: "人工智能与数据科学学院",
-        email: "wangjiangtao@ustc.edu.cn",
-        researchAreas: "数字健康、人工智能、数据科学",
-        summary: "关注人工智能和机器学习在数字健康、智慧城市等领域的应用。",
-        profileUrl: "https://saids.ustc.edu.cn/2024/0722/c36359a648226/page.htm",
+        "name": "王江涛",
+        "title": "特任教授",
+        "affiliation": "人工智能与数据科学学院",
+        "email": "wangjiangtao@ustc.edu.cn",
+        "researchAreas": "数字健康、人工智能、数据科学",
+        "summary": "关注人工智能和机器学习在数字健康、智慧城市等领域的应用。",
+        "profileUrl": "https://saids.ustc.edu.cn/2024/0722/c36359a648226/page.htm"
       },
       {
-        name: "吴剑灿",
-        title: "预聘副教授",
-        affiliation: "人工智能与数据科学学院",
-        email: "wjc1994@ustc.edu.cn",
-        researchAreas: "通用人工智能与大模型、个性化大模型与社交科学智能、可信人工智能",
-        summary: "长期从事信息检索、推荐、数据挖掘与大模型相关研究。",
-        profileUrl: "https://saids.ustc.edu.cn/2025/1013/c36359a704390/page.htm",
+        "name": "徐金辉",
+        "title": "教授",
+        "affiliation": "信息科学技术学院",
+        "email": "jhxu@ustc.edu.cn",
+        "researchAreas": "算法与几何、机器学习、差分隐私、网络、生物医学、智能生物制药",
+        "summary": "以算法和几何为基础，兼顾机器学习理论与交叉应用研究。",
+        "profileUrl": "https://faculty.ustc.edu.cn/xujinhui1/zh_CN/index.htm"
       },
       {
-        name: "康奇宇",
-        title: "特任教授",
-        affiliation: "信息科学技术学院",
-        email: "kang0080@e.ntu.edu.sg",
-        researchAreas: "图神经网络、机器学习、安全可信、脉冲神经网络、感知决策",
-        summary: "重点研究深度学习的能效性、鲁棒性与安全可信问题。",
-        profileUrl: "https://faculty.ustc.edu.cn/kangqiyu/zh_CN/index.htm",
-      },
-      {
-        name: "徐金辉",
-        title: "教授",
-        affiliation: "信息科学技术学院",
-        email: "jhxu@ustc.edu.cn",
-        researchAreas: "算法与几何、机器学习、差分隐私、网络、生物医学、智能生物制药",
-        summary: "以算法和几何为基础，兼顾机器学习理论与交叉应用研究。",
-        profileUrl: "https://faculty.ustc.edu.cn/xujinhui1/zh_CN/index.htm",
-      },
+        "name": "康奇宇",
+        "title": "特任教授",
+        "affiliation": "信息科学技术学院",
+        "email": "kang0080@e.ntu.edu.sg",
+        "researchAreas": "图神经网络、机器学习、安全可信、脉冲神经网络、感知决策",
+        "summary": "重点研究深度学习的能效性、鲁棒性与安全可信问题。",
+        "profileUrl": "https://faculty.ustc.edu.cn/kangqiyu/zh_CN/index.htm"
+      }
     ],
-    assistants: [
+    "assistants": [
       {
-        name: "王致超",
-        email: "wzc9264@hotmail.com",
+        "name": "李思澄",
+        "email": ""
       },
       {
-        name: "肖剑斐",
-        email: "jfxiao2000@gmail.com",
-      },
-    ],
+        "name": "许嘉洲",
+        "email": ""
+      }
+    ]
   },
-};
+  "homeworkNotice": {
+    "title": "第一次作业",
+    "deadline": "2026年10月8日",
+    "submission": "手写或电子完成，提交扫描版。",
+    "fileName": "hw(1).docx"
+  },
+  "materialSections": [
+    {
+      "label": "第一章",
+      "slug": "chapter-01"
+    },
+    {
+      "label": "第二章",
+      "slug": "chapter-02"
+    },
+    {
+      "label": "第一次作业",
+      "slug": "assignment-01"
+    }
+  ]
+}

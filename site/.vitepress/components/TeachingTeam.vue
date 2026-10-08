@@ -44,9 +44,9 @@ import { courseData } from "../generated/course-content.mjs"
     <div class="team-section">
       <h3 class="team-section-title">助教</h3>
       <div class="assistant-grid">
-        <article v-for="assistant in courseData.teachingTeam.assistants" :key="assistant.email" class="assistant-card">
+        <article v-for="assistant in courseData.teachingTeam.assistants" :key="assistant.name" class="assistant-card">
           <h4>{{ assistant.name }}</h4>
-          <a :href="`mailto:${assistant.email}`">{{ assistant.email }}</a>
+          <a v-if="assistant.email" :href="`mailto:${assistant.email}`">{{ assistant.email }}</a>
         </article>
       </div>
     </div>

@@ -5,3 +5,6 @@ site/.vitepress/cache/
 site/.vitepress/dist/
 site/.vitepress/generated/
 site/public/course-materials/
+
+# 往年资料保存在本地，不进入课程仓库或发布目录
+archive/

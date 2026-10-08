@@ -397,3 +397,6 @@
     overflow-x: auto;
   }
 }
+
+.homework-notice { padding: 18px 22px; margin: 20px 0; border: 1px solid var(--vp-c-divider); border-left: 4px solid var(--vp-c-brand-1); border-radius: 8px; background: var(--vp-c-bg-soft); }
+.homework-notice h3 { margin-top: 0; }
