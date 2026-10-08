@@ -233,7 +233,7 @@ export const courseSource = {
   "homeworkNotice": {
     "title": "第一次作业",
     "deadline": "2026年10月8日",
-    "submission": "手写或电子完成，提交扫描版。",
+    "submission": "提交手写版，或电子扫描版。",
     "fileName": "hw(1).docx"
   },
   "materialSections": [
