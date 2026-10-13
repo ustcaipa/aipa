@@ -222,11 +222,11 @@ export const courseSource = {
     "assistants": [
       {
         "name": "李思澄",
-        "email": ""
+        "email": "1245611210@qq.com"
       },
       {
         "name": "许嘉洲",
-        "email": ""
+        "email": "stardustxu@mail.ustc.edu.cn"
       }
     ]
   },
@@ -244,6 +244,10 @@ export const courseSource = {
     {
       "label": "第二章",
       "slug": "chapter-02"
+    },
+    {
+      "label": "第三章（第一部分）",
+      "slug": "chapter-03-part-01"
     },
     {
       "label": "第一次作业",
