@@ -6,15 +6,13 @@ import { courseData } from "../generated/course-content.mjs"
 <template>
   <section id="course-materials" class="syllabus-section">
     <h2>课程资料</h2>
-    <div class="homework-notice" aria-labelledby="homework-title">
-      <h3 id="homework-title">{{ courseData.homeworkNotice.title }}</h3>
-      <p><strong>提交截止日期：</strong>{{ courseData.homeworkNotice.deadline }}</p>
-      <p><strong>提交要求：</strong>{{ courseData.homeworkNotice.submission }}</p>
-      <template v-for="week in courseData.materialsWeeks" :key="week.slug">
-        <p v-for="item in week.homework.filter((file) => file.name === courseData.homeworkNotice.fileName)" :key="item.href">
-          <a :href="withBase(item.href)" download>下载作业说明：{{ item.name }}</a>
-        </p>
-      </template>
+    <div v-for="notice in courseData.homeworkNotices" :key="notice.slug" class="homework-notice" :aria-labelledby="notice.slug + '-title'">
+      <h3 :id="notice.slug + '-title'">{{ notice.title }}</h3>
+      <p><strong>提交截止日期：</strong>{{ notice.deadline }}</p>
+      <p v-if="notice.submission"><strong>提交要求：</strong>{{ notice.submission }}</p>
+      <p v-for="file in notice.files" :key="file.name">
+        <a :href="withBase('/course-materials/' + notice.slug + '/homework/' + encodeURIComponent(file.name))" download>{{ file.label }}：{{ file.name }}</a>
+      </p>
     </div>
     <table class="course-materials-table">
       <thead>

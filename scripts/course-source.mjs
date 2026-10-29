@@ -230,12 +230,6 @@ export const courseSource = {
       }
     ]
   },
-  "homeworkNotice": {
-    "title": "第一次作业",
-    "deadline": "2026年10月8日",
-    "submission": "提交手写版，或电子扫描版。",
-    "fileName": "hw(1).docx"
-  },
   "materialSections": [
     {
       "label": "第一章",
@@ -250,8 +244,46 @@ export const courseSource = {
       "slug": "chapter-03-part-01"
     },
     {
+      "label": "Agent 课件",
+      "slug": "agents"
+    },
+    {
       "label": "第一次作业",
       "slug": "assignment-01"
+    },
+    {
+      "label": "作业2（含配套数据）",
+      "slug": "assignment-02"
+    }
+  ],
+  "homeworkNotices": [
+    {
+      "title": "作业2",
+      "deadline": "2026年11月5日 23:59",
+      "slug": "assignment-02",
+      "files": [
+        {
+          "name": "student_assignment_hw2.zip",
+          "label": "作业2说明与文件"
+        },
+        {
+          "name": "course_data.zip",
+          "label": "作业2配套数据"
+        }
+      ]
+    },
+    {
+      "title": "第一次作业",
+      "deadline": "2026年10月8日",
+      "submission": "提交手写版，或电子扫描版。",
+      "fileName": "hw(1).docx",
+      "slug": "assignment-01",
+      "files": [
+        {
+          "name": "hw(1).docx",
+          "label": "第一次作业说明"
+        }
+      ]
     }
   ]
 }
