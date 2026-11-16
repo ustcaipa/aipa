@@ -244,6 +244,18 @@ export const courseSource = {
       "slug": "chapter-03-part-01"
     },
     {
+      "label": "第三章（第二部分）",
+      "slug": "chapter-03-part-02"
+    },
+    {
+      "label": "第三章（第三部分）",
+      "slug": "chapter-03-part-03"
+    },
+    {
+      "label": "第三章（第四部分）",
+      "slug": "chapter-03-part-04"
+    },
+    {
       "label": "Agent 课件",
       "slug": "agents"
     },
