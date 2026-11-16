@@ -260,6 +260,26 @@ export const courseSource = {
       "slug": "agents"
     },
     {
+      "label": "第四章：AI赋能生命科学",
+      "slug": "chapter-04-health"
+    },
+    {
+      "label": "第四章：AI赋能地理科学",
+      "slug": "chapter-04-geo"
+    },
+    {
+      "label": "第四章：AI赋能化学",
+      "slug": "chapter-04-chem"
+    },
+    {
+      "label": "以数据为中心的 AI",
+      "slug": "data-centric-ai"
+    },
+    {
+      "label": "以数据为中心的 AI：论文阅读",
+      "slug": "data-centric-ai-reading"
+    },
+    {
       "label": "第一次作业",
       "slug": "assignment-01"
     },
